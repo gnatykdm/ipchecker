@@ -1,0 +1,14 @@
+# Ignore virtual environment
+venv/
+.env/
+*.pyc
+*.cfg
+__pycache__/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependencies (optional, if using a lock file instead)
+pip-log.txt
+pip-wheel-metadata/
